@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Katiyar — Backend Developer</title>
+<meta name="description" content="Aryan Katiyar — Backend / Python Developer specializing in Django REST Framework, MySQL, and scalable API design.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2311161D'/%3E%3Ctext x='50' y='66' font-family='monospace' font-size='44' font-weight='700' fill='%23E8A23D' text-anchor='middle'%3EAK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a href="#hero" class="nav__logo" aria-label="Back to top">
+      <span class="nav__logo-bracket">&lt;</span>AK<span class="nav__logo-bracket">/&gt;</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#certifications" class="nav__link">Certifications</a>
+      <a href="#resume" class="nav__link">Resume</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+
+    <a href="assets/Aryan_Katiyar_Resume.pdf" class="btn btn--ghost nav__cta" download>Resume ↓</a>
+
+    <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+
+      <div class="hero__text">
+        <p class="eyebrow eyebrow--dark">
+          <span class="eyebrow__dot"></span>
+          GET /developer/aryan-katiyar <span class="status-chip">200 OK</span>
+        </p>
+
+        <h1 class="hero__title">
+          Aryan Katiyar
+        </h1>
+
+        <p class="hero__subtitle">
+          Backend Developer building REST APIs, clean schemas, and code
+          that holds up under real traffic.
+        </p>
+
+        <p class="hero__desc">
+          Final-year CS undergrad specializing in Python &amp; Django REST
+          Framework — currently looking for backend, full-stack, or
+          Python developer roles.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="assets/Aryan_Katiyar_Resume.pdf" class="btn btn--outline-dark" download>Download Resume</a>
+        </div>
+      </div>
+
+      <div class="hero__panel" id="heroPanel">
+        <div class="panel">
+          <div class="panel__bar">
+            <span class="panel__dot panel__dot--red"></span>
+            <span class="panel__dot panel__dot--amber"></span>
+            <span class="panel__dot panel__dot--green"></span>
+            <span class="panel__bar-label">response.json</span>
+          </div>
+          <pre class="panel__body"><code><span class="tok-brace">{</span>
+  <span class="tok-key">"name"</span><span class="tok-punc">:</span> <span class="tok-str">"Aryan Katiyar"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"role"</span><span class="tok-punc">:</span> <span class="tok-str">"Backend / Python Developer"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"stack"</span><span class="tok-punc">:</span> <span class="tok-brace">[</span><span class="tok-str">"Python"</span><span class="tok-punc">,</span> <span class="tok-str">"Django"</span><span class="tok-punc">,</span> <span class="tok-str">"DRF"</span><span class="tok-punc">,</span> <span class="tok-str">"MySQL"</span><span class="tok-brace">]</span><span class="tok-punc">,</span>
+  <span class="tok-key">"based_in"</span><span class="tok-punc">:</span> <span class="tok-str">"Greater Noida, India"</span><span class="tok-punc">,</span>
+  <span class="tok-key">"graduating"</span><span class="tok-punc">:</span> <span class="tok-num">2026</span><span class="tok-punc">,</span>
+  <span class="tok-key">"status"</span><span class="tok-punc">:</span> <span class="tok-bool">"open_to_work"</span><span class="cursor">▌</span>
+<span class="tok-brace">}</span></code></pre>
+        </div>
+      </div>
+
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span class="scroll-cue__line"></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="eyebrow">// who_am_i</p>
+      <h2 class="section__title">About Me</h2>
+
+      <div class="about__grid">
+        <div class="about__bio">
+          <div class="photo-card">
+            <div class="photo-card__bar">
+              <span class="panel__dot panel__dot--red"></span>
+              <span class="panel__dot panel__dot--amber"></span>
+              <span class="panel__dot panel__dot--green"></span>
+              <span class="photo-card__label">profile.jpg</span>
+            </div>
+            <img class="photo-card__img" src="assets/profile.jpg" alt="Aryan Katiyar">
+          </div>
+
+          <div class="about__text">
+          <p>
+            I'm a final-year Computer Science student finishing up my B.Tech,
+            with my sights set on backend and full-stack development roles.
+            Most of my time goes into Python and Django REST Framework —
+            designing APIs, shaping database schemas in MySQL, and tracking
+            down the one slow query that's quietly costing 300ms.
+          </p>
+          <p>
+            During an AI/ML internship with the Edunet Foundation (Microsoft
+            &amp; AICTE's TechSaksham program), I built a candidate-screening
+            engine that processed hundreds of profiles per run, which is
+            where I got comfortable taking a messy, manual workflow and
+            turning it into something repeatable. That instinct — automate
+            the boring part, keep the logic clean — carries into everything
+            I build now, from REST endpoints to data pipelines.
+          </p>
+          <p>
+            Outside of coursework and projects, I keep my problem-solving
+            sharp through competitive programming, and I'm an active
+            contributor on GitHub.
+          </p>
+          </div>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat-card">
+            <span class="stat-card__num">500<span class="stat-card__unit">+</span></span>
+            <span class="stat-card__label">profiles processed per run</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">70<span class="stat-card__unit">%</span></span>
+            <span class="stat-card__label">less manual review time</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">40<span class="stat-card__unit">%</span></span>
+            <span class="stat-card__label">faster page loads via query tuning</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">92<span class="stat-card__unit">%</span></span>
+            <span class="stat-card__label">resume-parsing extraction accuracy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <p class="eyebrow">// tech_stack</p>
+      <h2 class="section__title">Skills</h2>
+
+      <div class="schema">
+
+        <div class="schema__row">
+          <div class="schema__field">languages</div>
+          <div class="schema__chips">
+            <span class="chip">Python</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">C++</span>
+            <span class="chip">Java</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">backend</div>
+          <div class="schema__chips">
+            <span class="chip chip--accent">Django</span>
+            <span class="chip chip--accent">Django REST Framework</span>
+            <span class="chip chip--accent">REST API Design</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">databases</div>
+          <div class="schema__chips">
+            <span class="chip">MySQL</span>
+            <span class="chip">SQLite</span>
+            <span class="chip">SQL · indexing</span>
+            <span class="chip">Query Optimization</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">frontend</div>
+          <div class="schema__chips">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">data &amp; automation</div>
+          <div class="schema__chips">
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">tools</div>
+          <div class="schema__chips">
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Postman</span>
+          </div>
+        </div>
+
+        <div class="schema__row">
+          <div class="schema__field">core cs</div>
+          <div class="schema__chips">
+            <span class="chip">Data Structures &amp; Algorithms</span>
+            <span class="chip">OOP</span>
+            <span class="chip">SDLC</span>
+            <span class="chip">Agile Basics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="eyebrow">// projects</p>
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects">
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="method method--get">GET</span>
+            <span class="project-card__path">/campus-connect</span>
+          </div>
+          <h3 class="project-card__title">Campus Connect — Placement Management System</h3>
+          <p class="project-card__desc">
+            A full placement portal serving two roles — Recruiter/Admin and
+            Student — with role-based access throughout. Fifteen-plus REST
+            endpoints sit behind token authentication, and a pass at query
+            optimization and indexing cut page load time by 40%. The schema
+            automates the messy parts of placements — applications,
+            interview scheduling, offers — across 500+ student profiles,
+            with CSRF protection and proper form validation in place.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Python</span>
+            <span class="tag">Django</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">REST API</span>
+          </div>
+          <div class="project-card__links">
+            <a href="http://aryan279.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" class="link-arrow">Live Demo</a>
+            <a href="https://github.com/Aryan9369/campus-connect" target="_blank" rel="noopener noreferrer" class="link-arrow">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="method method--post">POST</span>
+            <span class="project-card__path">/resume-screening-engine</span>
+          </div>
+          <h3 class="project-card__title">AI-Powered Resume Screening &amp; Ranking System</h3>
+          <p class="project-card__desc">
+            A scoring engine that ranks candidates against a job's
+            requirements, batch-processing 500+ resumes at a time. A
+            Pandas-based pipeline pulls 10+ features — skills, experience,
+            education — out of unstructured PDF and text resumes at 92%
+            extraction accuracy, while an SQLite layer stores and compares
+            profiles across 1,000+ records for repeatable, multi-role
+            ranking. Parser, scorer, and database logic are split into
+            reusable modules, which trimmed code duplication by 45%.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NLP</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/Aryan9369/AI-powered-resume-screening-and-ranking-system" target="_blank" rel="noopener noreferrer" class="link-arrow">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section--alt" id="education">
+    <div class="container">
+      <p class="eyebrow">// timeline</p>
+      <h2 class="section__title">Education &amp; Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2025 – Mar 2025 · Remote</span>
+            <h3 class="timeline__title">AI/ML Engineering Intern — Edunet Foundation</h3>
+            <p class="timeline__sub">TechSaksham Initiative · Microsoft &amp; AICTE</p>
+            <p class="timeline__desc">
+              Built the core candidate screening and ranking engine,
+              processing 500+ profiles per run and cutting manual review
+              time by roughly 70% through automated, reusable Python
+              modules backed by SQLite.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Aug 2022 – Jun 2026</span>
+            <h3 class="timeline__title">B.Tech, Computer Science &amp; Engineering</h3>
+            <p class="timeline__sub">Greater Noida Institute of Technology, Greater Noida, UP · CGPA 6.9</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">10+2 (PCM)</span>
+            <h3 class="timeline__title">Intermediate</h3>
+            <p class="timeline__sub">Jawahar Navodaya Vidyalaya, Kanpur Dehat, UP</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <p class="eyebrow">// credentials</p>
+      <h2 class="section__title">Certifications &amp; Achievements</h2>
+
+      <div class="badges">
+
+        <div class="badge-card">
+          <div class="badge-card__icon">★</div>
+          <h3 class="badge-card__title">5-Star Gold Badge, Python</h3>
+          <p class="badge-card__sub">HackerRank · Top 5% globally in Python problem-solving</p>
+        </div>
+
+        <div class="badge-card">
+          <div class="badge-card__icon">✓</div>
+          <h3 class="badge-card__title">SQL Fundamentals Certification</h3>
+          <p class="badge-card__sub">HackerRank</p>
+        </div>
+
+        <div class="badge-card">
+          <div class="badge-card__icon">✓</div>
+          <h3 class="badge-card__title">Python with Django Certification</h3>
+          <p class="badge-card__sub">Mysirg.com</p>
+        </div>
+
+        <div class="badge-card">
+          <div class="badge-card__icon">▣</div>
+          <h3 class="badge-card__title">150+ DSA Problems Solved</h3>
+          <p class="badge-card__sub">Across LeetCode &amp; HackerRank</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section class="section section--alt" id="resume">
+    <div class="container">
+      <p class="eyebrow">// resume</p>
+      <h2 class="section__title">Resume</h2>
+
+      <div class="resume-card">
+        <div class="resume-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <path d="M14 2v6h6"/>
+            <line x1="8" y1="13" x2="16" y2="13"/>
+            <line x1="8" y1="17" x2="16" y2="17"/>
+          </svg>
+        </div>
+        <div class="resume-card__text">
+          <h3>Aryan_Katiyar_Resume.pdf</h3>
+          <p>One page · full breakdown of experience, projects &amp; skills</p>
+        </div>
+        <div class="resume-card__actions">
+          <a href="assets/Aryan_Katiyar_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline">View</a>
+          <a href="assets/Aryan_Katiyar_Resume.pdf" class="btn btn--primary" download>Download</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <p class="eyebrow eyebrow--dark">// contact</p>
+      <h2 class="section__title section__title--light">Let's talk</h2>
+      <p class="contact__intro">
+        Open to backend, full-stack, and Python developer roles —
+        internships or full-time. Email's the fastest way to reach me.
+      </p>
+
+      <div class="contact__grid">
+
+        <form class="contact-form" id="contactForm">
+          <label class="field">
+            <span class="field__label">Name</span>
+            <input type="text" name="name" id="cName" required placeholder="Your name">
+          </label>
+          <label class="field">
+            <span class="field__label">Email</span>
+            <input type="email" name="email" id="cEmail" required placeholder="you@example.com">
+          </label>
+          <label class="field">
+            <span class="field__label">Message</span>
+            <textarea name="message" id="cMessage" rows="4" required placeholder="Tell me about the role or opportunity..."></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary contact-form__submit">Send Message</button>
+          <p class="contact-form__note" id="formNote"></p>
+        </form>
+
+        <div class="contact-direct">
+          <a href="mailto:aryankatiyarjnv@gmail.com" class="contact-direct__item">
+            <span class="contact-direct__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+            </span>
+            <span>aryankatiyarjnv@gmail.com</span>
+          </a>
+          <a href="https://github.com/Aryan9369" target="_blank" rel="noopener noreferrer" class="contact-direct__item">
+            <span class="contact-direct__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 5.77 5.07 5.07 0 0 0 19.91 2S18.73 1.65 16 3.48a13.38 13.38 0 0 0-7 0C6.27 1.65 5.09 2 5.09 2A5.07 5.07 0 0 0 5 5.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 19.13V22"/></svg>
+            </span>
+            <span>github.com/Aryan9369</span>
+          </a>
+          <a href="https://linkedin.com/in/aryan-k-225893214" target="_blank" rel="noopener noreferrer" class="contact-direct__item">
+            <span class="contact-direct__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span>linkedin.com/in/aryan-k-225893214</span>
+          </a>
+          <div class="contact-direct__item contact-direct__item--static">
+            <span class="contact-direct__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <span>Greater Noida, UP, India</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© <span id="year"></span> Aryan Katiyar</span>
+    <button class="footer__top" id="backToTop" aria-label="Back to top">↑ Top</button>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
