@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Your Main Homepage -->
-  <url>
-    <loc>https://github.io</loc>
-    <priority>1.0</priority>
-  </url>
-  
-  <!-- Add extra blocks like below ONLY if you have other sub-pages -->
-  <!-- 
   <url>
     <loc>https://aryan9369.github.io/Portfolio/</loc>
-    <priority>0.8</priority>
-  </url> 
-  -->
+    <priority>1.0</priority>
+  </url>
 </urlset>
